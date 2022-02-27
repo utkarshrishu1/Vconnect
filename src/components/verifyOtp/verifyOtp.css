@@ -1,0 +1,12 @@
+.verifyButton{
+    color: white;
+    padding: 5px;
+    background-color: rgba(1,133,239,255);
+    box-sizing: border-box;
+    font-size: medium;
+    border-radius: 5px;
+    font-family:cursive;
+}
+.verifyButton:hover{
+    cursor: pointer;
+}

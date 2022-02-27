@@ -1,0 +1,275 @@
+.profile{
+    background-image: url("../../images/profile-picture.jpg");
+    background-size: 100% 100%;
+    height: 70%;
+    width: 3%;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.profile:hover,.askButton:hover,.replyButton:hover{
+    cursor: pointer;
+}
+.options{
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    color:black;
+    position: absolute;
+    top:1vh;
+    right:3vw;
+    z-index: 2;
+}
+.options div{
+    font-size:large;
+    padding:3px 8px;
+}
+.options div:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 5px;
+}
+@media (max-width:1000px) {
+    .profile{
+        height: 60%;
+        width: 8%;
+    }
+}
+.outer{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+.askBar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background-color: rgba(15,11,44,255);
+    flex-wrap: wrap;
+    padding:20px 10px;
+    box-sizing: border-box;
+}
+.filterDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.askBar select{
+    margin-bottom: 0px;
+}
+.quesTypes{
+    background-color: rgba(15,11,44,255);
+    border: none;
+    color:white;
+}
+.search{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+}
+.searchInput{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+.askQuesButtons,.replyButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.searchButton{
+    color:white;
+    box-sizing: border-box;
+    background-color: rgba(1,137,255,255);
+    padding: 5px;
+    border: 0px;
+    height: 35px;
+    outline: none;
+    font-family:cursive;
+    font-size: medium;
+}
+.askQuesButton{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: medium;
+    font-family: cursive;
+}
+.questions{
+    margin-top: 120px;
+}
+.askButton,.replyButton{
+    color:white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgba(1,137,255,255);
+    padding: 5px;
+    border: 0px;
+    height: 35px;
+    outline: none;
+    font-family:cursive;
+    font-size: medium;
+}
+.cancelButton,.cancelReplyButton{
+    margin-left: 10px;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 5px;
+    border: 0px;
+    height: 35px;
+    outline: none;
+    font-family:cursive;
+    font-size: medium;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+@media(max-width:980px) {
+    .search{
+        margin-bottom: 10px;
+    }
+}
+.askQuesForm,.replyForm{
+    width: 70%;
+}
+.textArea{
+    border: 0px;
+    height: 200px;
+    width: 100%;
+    outline: none;
+    font-size: medium;
+    resize: none;
+}
+.questions{
+    padding:20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.question{
+    background-color:seagreen;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.questionBy{
+    display: flex;
+    flex-direction: row;
+}
+.question_name{
+    color:darkorange;
+    font-weight: 600;
+}
+.question_email{
+    margin-left: 5px;
+}
+.question_time{
+    width: 100%;
+    text-align: end;
+}
+.replyQuesButton{
+    color:white;
+    box-sizing: border-box;
+    background-color: rgba(1,137,255,255);
+    padding: 5px;
+    border: 0px;
+    height: 35px;
+    outline: none;
+    font-family:cursive;
+    font-size: medium;
+    border-radius: 5px;
+}
+.deleteQuesButton{
+    background-color:firebrick;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 0px;
+    height: 35px;
+    outline: none;
+    font-family:cursive;
+    font-size: medium;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.ques{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+.viewReplies{
+    background-color:gold;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 0px;
+    height: 35px;
+    outline: none;
+    font-family:cursive;
+    font-size: medium;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.user_profession{
+    color:indigo;
+}
+.confirmDeleteQuesButton{
+    color:white;
+    box-sizing: border-box;
+    background-color: rgba(1,137,255,255);
+    padding: 5px;
+    border: 0px;
+    height: 35px;
+    outline: none;
+    font-family:cursive;
+    font-size: medium;
+    border-radius: 5px;
+}
+.cancelDeleteQuesButton{
+    background-color:firebrick;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 0px;
+    height: 35px;
+    outline: none;
+    font-family:cursive;
+    font-size: medium;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.alert{
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+}
+.alertType{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.alertButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

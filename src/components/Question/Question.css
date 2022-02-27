@@ -1,0 +1,70 @@
+.questionDiv{
+    height: 100%;
+    width: 100%;
+    padding:20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.allReplies{
+    width: 100%;
+    padding:20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+fieldset{
+    width: 100%;
+    padding:20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.reply{
+    background-color:yellowgreen;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.replyInfo{
+    display: flex;
+    flex-direction: row;
+}
+.replier_name{
+    color:darkblue;
+    font-weight: bold;
+}
+.replier_email{
+    margin-left: 10px;
+}
+.replier_time{
+    width: 100%;
+    text-align: end;
+}
+.replier_profession{
+    color:purple;
+}
+.rep{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+.deleteReplyButton{
+    background-color:firebrick;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 0px;
+    height: 35px;
+    outline: none;
+    font-family:cursive;
+    font-size: medium;
+    margin-left: 10px;
+    border-radius: 5px;
+}

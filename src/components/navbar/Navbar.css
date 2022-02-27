@@ -1,0 +1,21 @@
+.navbar{
+    background-color: rgba(15,11,44,255);
+    width: 100vw;
+    height: 8vh;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    box-sizing: border-box;
+}
+.logo{
+    color:white;
+    font-size: large;
+    font-family:cursive;
+    padding-left: 1vw;
+    box-sizing: border-box;
+}
+.logo:hover{
+    cursor: pointer;
+}

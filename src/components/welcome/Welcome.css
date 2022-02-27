@@ -1,0 +1,37 @@
+.navbarItem{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2vw;
+    box-sizing: border-box;
+}
+.signupButton,.loginButton{
+    color:white;
+    border-radius: 5px;
+    background-color: rgba(1,137,255,255);
+    padding: 5px;
+    border: 0px;
+    outline: none;
+    font-size: medium;
+    font-family:cursive;
+
+}
+.loginButton{
+    margin-left: 1vw;
+}
+button{
+    cursor: pointer;
+}
+.bgHeading1{
+    color:rgba(1,133,239,255);
+    text-align: center;
+    font-size: 5rem;
+}
+.bgHeading2{
+    font-size: 3rem;
+    text-align: center;
+    font-family: cursive;
+}

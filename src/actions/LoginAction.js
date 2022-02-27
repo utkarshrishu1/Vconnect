@@ -1,0 +1,33 @@
+const LoginAction=(dispatch)=>{
+    return{
+        changeEmail:(value)=>dispatch({
+            type:"email",
+            about:"loginForm",
+            prop:value
+        }),
+        changePassword:(value)=>dispatch({
+            type:"password",
+            about:"loginForm",
+            prop:value
+        }),
+        emailError:(value)=>dispatch({
+            type:"email",
+            about:"loginError",
+            prop:value
+        }),
+        passwordError:(value)=>dispatch({
+            type:"password",
+            about:"loginError",
+            prop:value
+        }),
+        addUserDetails:(value)=>dispatch({
+            prop:value,
+            type:"addUser"
+        }),
+        changeFetching:(value)=>dispatch({
+            type:"isFetching",
+            prop:value
+        })
+    }
+}
+export default LoginAction;
